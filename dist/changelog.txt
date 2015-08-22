@@ -1,0 +1,17 @@
+                                      FIVE NIGHTS WITH US
+
+
+
+========================================== CHANGELOG ==========================================
+
+v0.6 - Primary focus: readability and user experience:
+  * Improved GUI, mainly status bars. Bars now have outlines and text.
+  * Energy Generation Cap when tension is low increased to 40 (up from 20)
+    Base Energy Generation when tension is low decreased to 0.5 (down from 1.0)
+  * Energy and Tension adjustments are now made before graphics are updated, not after.
+    This means you will no longer see a bar bigger than it should be for a frame before the graphics "catch up"
+  * Cleared up the wording on default Move option's tooltip (Now states it's random nature, instead of just "without regard to tactics"
+  * Tactical Move is now unselectable until Tension is above 50%.
+    This change is meant to remove information the player doesn't need at the start, as well as draw their attention to it when they have enough energy.
+    End result should be players are more likely to use Tactical Moves in the late game, when Tension is high and Energy is abundant.
+  * Guard is now slightly less stupid about Foxy. Will actually check Pirate's Cove before looking for missing animatronics.
